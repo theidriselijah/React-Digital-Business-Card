@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 550px;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    font-size: 10px;
+    color: #2B283A;
+}
+
+/* ===============
+    Navbar 
+================== */
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    max-width: 550px;
+    background-color: #F55A5A;
+    margin-bottom: 27px;
+}
+
+.nav--logo {
+    margin-right: 7px;
+}
+
+.nav--title {
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+/* ================
+    Location
+=================== */
+
+.location--container {
+    display: flex;
+    align-items: center;
+    margin: 0 40px;
+    padding: 18px 0;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.location--img {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-right: 19px;
+}
+
+.location--details {
+    display: flex;
+    align-items: center;
+}
+
+.location--details img {
+    margin-right: 4px;
+}
+
+.location--details p {
+    font-size: 10px;
+    margin-right: 12px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+}
+
+.location--details a {
+    font-size: 10px;
+    color: #918E9B;
+}
+
+.date {
+    font-weight: 700;
+}
+
+.location-bio {
+    width: 326px;
+    line-height: 15px;
+}
